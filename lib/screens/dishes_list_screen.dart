@@ -9,7 +9,7 @@ class DishesListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFE5E5E5),
+      
       body: ListView.builder(
         itemCount: dishesList.length,
         itemBuilder: (context, index) {

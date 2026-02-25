@@ -28,7 +28,7 @@ class FoodApp extends StatelessWidget {
           surface: const Color(0xFFECECEC), // Цвет фона карточек и панелей
         ),
         // Цвет заднего фона всего приложения
-        scaffoldBackgroundColor: const Color(0xFFFFFFFF),
+        scaffoldBackgroundColor: const Color(0xFFE5E5E5),
       ),
       home: DishesListScreen(dishesList: dishesList),
     );
